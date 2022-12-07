@@ -17,23 +17,22 @@ extensions = []
 language ='zh'
 
 templates_path = ['_templates']
-
+html_static_path = ['_static']
 exclude_patterns = []
 
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_rtd_theme'
+# html_theme = 'sphinx_rtd_theme'
 # html_theme = "sphinxawesome_theme"
-# extensions = ["sphinxawesome_theme"]
-# html_theme = 'sphinx_book_theme'
-html_static_path = ['_static']
+
+html_theme = 'sphinx_book_theme'
 
 html_title = "简立得®操作手册"
 #html_logo = "_static/logo.png"
 html_favicon = "_static/favicon.ico"
-# display_version = False
+
 
 extensions = ['recommonmark']
 from recommonmark.parser import CommonMarkParser
@@ -42,8 +41,3 @@ source_parsers = {
 }
 source_suffix = ['.rst', '.md']
 
-# html_additional_pages = {
-#   'download': 'my1.html',
-#}
-
-# extensions = ["sphinx_design"]
