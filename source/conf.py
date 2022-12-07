@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = '简立得®操作手册'
-copyright = '哈尔滨工业大学重庆研究院\n' # + "\n版本：V1.0"
+copyright = '哈尔滨工业大学重庆研究院\n' 
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -33,10 +33,8 @@ html_static_path = ['_static']
 html_title = "简立得®操作手册"
 #html_logo = "_static/logo.png"
 #html_favicon = "_static/favicon.ico"
-display_version = True
-version = 'V1.0'
-release = 'V1.0'
-author = '版本：V1.0'
+display_version = False
+
 
 
 extensions = ['recommonmark']
