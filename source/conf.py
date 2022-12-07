@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = '简立得®操作手册'
-copyright = '哈尔滨工业大学重庆研究院\n' 
+copyright = '哈尔滨工业大学重庆研究院' 
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -32,10 +32,8 @@ html_static_path = ['_static']
 
 html_title = "简立得®操作手册"
 #html_logo = "_static/logo.png"
-#html_favicon = "_static/favicon.ico"
-display_version = False
-
-
+html_favicon = "_static/favicon.ico"
+# display_version = False
 
 extensions = ['recommonmark']
 from recommonmark.parser import CommonMarkParser
