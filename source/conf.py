@@ -50,4 +50,4 @@ source_suffix = ['.rst', '.md']
 #   'download': 'my1.html',
 #}
 
-extensions = ["sphinx_design"]
+# extensions = ["sphinx_design"]
