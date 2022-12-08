@@ -6,3 +6,6 @@
 
     xmjd/11月
     xmjd/12月 
+
+.. raw:: html
+   :file: ./_static/empty.html

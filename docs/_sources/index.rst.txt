@@ -60,7 +60,6 @@ word、AutoCAD等国外商用软件，检测报告、插图、排版及生成均
     :maxdepth: 3
     :hidden:
     
-    nf2021
     nf2022
 
 
