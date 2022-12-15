@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>2022年 &#8212; 简立得®操作手册</title>
+    <title>桥梁模型 &#8212; 简立得®操作手册</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -34,8 +34,8 @@
     <link rel="shortcut icon" href="_static/favicon.ico"/>
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
-    <link rel="next" title="11月" href="xmjd/11%E6%9C%88.html" />
-    <link rel="prev" title="桥梁模型" href="model.html" />
+    <link rel="next" title="2022年" href="nf2022.html" />
+    <link rel="prev" title="详细功能" href="xiangxi.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="zh">
     
@@ -87,7 +87,7 @@
   操作文档
  </span>
 </p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="kuaisu.html">
    快速上手
@@ -98,8 +98,8 @@
    详细功能
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="model.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    桥梁模型
   </a>
  </li>
@@ -109,12 +109,12 @@
   项目进度
  </span>
 </p>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active has-children">
-  <a class="current reference internal" href="#">
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="nf2022.html">
    2022年
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
    <i class="fas fa-chevron-down">
    </i>
@@ -205,7 +205,7 @@ title="Fullscreen mode"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/nf2022.rst.txt"
+        <a href="_sources/model.rst.txt"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -254,7 +254,7 @@ title="Print to PDF"
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>2022年</h1>
+                <h1>桥梁模型</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -267,20 +267,108 @@ title="Print to PDF"
               <div>
                 
   <section id="id1">
-<h1>2022年<a class="headerlink" href="#id1" title="永久链接至标题">#</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="xmjd/11%E6%9C%88.html">11月</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="xmjd/11%E6%9C%88.html#id2">2022.11.21-2022.11.25</a></li>
-<li class="toctree-l2"><a class="reference internal" href="xmjd/11%E6%9C%88.html#id3">2022.11.28-2022.12.02</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="xmjd/12%E6%9C%88.html">12月</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="xmjd/12%E6%9C%88.html#id2">2022.12.05-2022.12.09</a></li>
-</ul>
-</li>
-</ul>
-</div>
+<h1>桥梁模型<a class="headerlink" href="#id1" title="永久链接至标题">#</a></h1>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My first three.js app</title>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="module"></div>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "http://www.respectator.com:9000/simple/model/three/build/three.module.js",
+          "three/addons/": "http://www.respectator.com:9000/simple/model/three/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module">
+      import * as THREE from "three";
+      // 导入控制器
+      import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+      // import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+      // 导入gltf载入库
+      import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+      // import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+
+      // 尺寸设置
+      const width = window.innerWidth * 0.4;
+      const height = window.innerHeight * 0.6;
+
+      // 初始化场景
+      const scene = new THREE.Scene();
+
+      // 初始化相机
+      const camera = new THREE.PerspectiveCamera(80, width / height, 0.1, 2000);
+      camera.position.set(-10, 30, 50); // 相机位置
+      camera.aspect = width / height; // 更新摄像头宽高比例
+      camera.updateProjectionMatrix(); // 更新摄像头投影矩阵
+
+      scene.add(camera);
+
+      // 初始化渲染器
+      const renderer = new THREE.WebGLRenderer({
+        // 设置抗锯齿
+        antialias: true,
+        //   对数深度缓冲区
+        logarithmicDepthBuffer: true, // 防止渲染闪烁
+      });
+      renderer.outputEncoding = THREE.sRGBEncoding;
+      renderer.setClearColor("rgba(255,255,255,0.87)", 1.0); // 渲染白色背景
+
+      // 渲染器宽高
+      renderer.setSize(width, height);
+
+      // 监听屏幕大小修改配置
+      window.addEventListener("resize", () => {
+        camera.aspect = width / height;
+        camera.updateProjectionMatrix();
+        renderer.setSize(width, height);
+      });
+
+      // 渲染器添加到页面
+      // document.body.appendChild(renderer.domElement);
+      const module = document.getElementsByClassName("module")[0];
+      module.appendChild(renderer.domElement);
+
+      // 初始化控制器
+      const controls = new OrbitControls(camera, renderer.domElement);
+
+      // 渲染函数
+      function render() {
+        renderer.render(scene, camera);
+        requestAnimationFrame(render);
+      }
+      render();
+
+      // 添加平行光
+      const light = new THREE.DirectionalLight(0xffffff, 1);
+      light.position.set(50, 100, 50);
+      scene.add(light);
+
+      // 添加环境光
+      const envLight = new THREE.SpotLight(0xffffff, 1);
+      envLight.position.set(-50, 100, -50);
+      scene.add(envLight);
+
+      // 添加桥梁模型
+      const loader = new GLTFLoader();
+      loader.load(
+        "http://www.respectator.com:9000/simple/model/wujiang.glb",
+        (gltf) => {
+          gltf.scene.position.set(0, 10, -5);
+          scene.add(gltf.scene);
+        }
+      );
+    </script>
+  </body>
+</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -290,7 +378,7 @@ title="Print to PDF"
     <title>Document</title>
     <style>
         #abc{
-            height:500px;
+            height:100px;
             background-color: rgb(255, 255, 255);
         }
     </style>
@@ -308,17 +396,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="model.html" title="上一页 页">
+    <a class='left-prev' id="prev-link" href="xiangxi.html" title="上一页 页">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">上一页</p>
-            <p class="prev-next-title">桥梁模型</p>
+            <p class="prev-next-title">详细功能</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="xmjd/11%E6%9C%88.html" title="下一页 页">
+    <a class='right-next' id="next-link" href="nf2022.html" title="下一页 页">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">下一页</p>
-        <p class="prev-next-title">11月</p>
+        <p class="prev-next-title">2022年</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
