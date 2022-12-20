@@ -1,7 +1,6 @@
 详细功能
 ========
 
-
 登录 `桥梁检测管理系统 <http://bridge.jianlide.cn/v/login.html>`__ ,看到的是系统主页,这里分为6个部分的信息展示。
 
 .. raw:: html

@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = '简立得®操作手册'
+project = '简立得'
 copyright = '哈尔滨工业大学重庆研究院' 
 
 # -- General configuration ---------------------------------------------------
@@ -29,9 +29,9 @@ exclude_patterns = []
 
 html_theme = 'sphinx_book_theme'
 
-html_title = "简立得®操作手册"
-#html_logo = "_static/logo.png"
-html_favicon = "_static/favicon.ico"
+html_title = ""
+html_logo = "_static/1.png"
+html_favicon = "_static/logo.png"
 
 
 extensions = ['recommonmark']
