@@ -34,8 +34,6 @@
     <link rel="shortcut icon" href="_static/logo.png"/>
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
-    <link rel="next" title="2022年" href="nf2022.html" />
-    <link rel="prev" title="详细功能" href="xiangxi.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="zh">
     
@@ -90,7 +88,7 @@
   操作文档
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="kuaisu.html">
    快速上手
@@ -99,11 +97,6 @@
  <li class="toctree-l1">
   <a class="reference internal" href="xiangxi.html">
    详细功能
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   桥梁模型
   </a>
  </li>
 </ul>
@@ -311,8 +304,8 @@ title="Print to PDF"
       // import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
       // 尺寸设置
-      const width = window.innerWidth * 0.6;
-      const height = window.innerHeight * 0.7;
+      const width = window.innerWidth * 0.4;
+      const height = window.innerHeight * 0.6;
 
       // 初始化场景
       const scene = new THREE.Scene();
@@ -348,7 +341,7 @@ title="Print to PDF"
         } else {
           camera.aspect = width / height;
           camera.updateProjectionMatrix();
-          renderer.setSize(window.innerWidth * 0.6, window.innerHeight * 0.7);
+          renderer.setSize(window.innerWidth * 0.4, window.innerHeight * 0.6);
         }
       });
 
@@ -395,6 +388,7 @@ title="Print to PDF"
 
       openBtn.addEventListener("click", () => {
         renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.position.set(-10, 30, 100);
         model1.appendChild(renderer.domElement);
         box.style.display = "block";
         fullSize = true;
@@ -404,7 +398,7 @@ title="Print to PDF"
       const box = document.getElementsByClassName("box")[0];
 
       closeBtn.addEventListener("click", () => {
-        renderer.setSize(window.innerWidth * 0.6, window.innerHeight * 0.7);
+        renderer.setSize(window.innerWidth * 0.4, window.innerHeight * 0.6);
         model.appendChild(renderer.domElement);
         box.style.display = "none";
         fullSize = false;
@@ -412,7 +406,24 @@ title="Print to PDF"
     </script>
   </body>
 </html>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #abc{
+            height:100px;
+            background-color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <div id="abc"></div>
+</body>
+</html></section>
 
 
               </div>
@@ -422,20 +433,6 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="xiangxi.html" title="上一页 页">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">上一页</p>
-            <p class="prev-next-title">详细功能</p>
-        </div>
-    </a>
-    <a class='right-next' id="next-link" href="nf2022.html" title="下一页 页">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">下一页</p>
-        <p class="prev-next-title">2022年</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
 </div>
             </footer>
         </div>
