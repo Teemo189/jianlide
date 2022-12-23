@@ -9,9 +9,6 @@
 project = '简立得'
 copyright = '哈尔滨工业大学重庆研究院' 
 
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
-
 extensions = []
 
 language ='zh'
@@ -19,13 +16,6 @@ language ='zh'
 templates_path = ['_templates']
 html_static_path = ['_static']
 exclude_patterns = []
-
-
-# -- Options for HTML output -------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-# html_theme = 'sphinx_rtd_theme'
-# html_theme = "sphinxawesome_theme"
 
 html_theme = 'sphinx_book_theme'
 
