@@ -9,8 +9,6 @@
 project = '简立得'
 copyright = '哈尔滨工业大学重庆研究院' 
 
-extensions = []
-
 language ='zh'
 
 templates_path = ['_templates']
@@ -30,4 +28,7 @@ source_parsers = {
     '.md': CommonMarkParser,
 }
 source_suffix = ['.rst', '.md']
+
+#extensions = ['sphinx_toolbox.collapse'] 
+
 
