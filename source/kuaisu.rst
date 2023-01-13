@@ -28,8 +28,39 @@
   K50+715小河桥桥梁立面布置图和断面布置图如下:
 
 .. raw:: html
-   :file: ./_static/ks12.html
 
+     <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image1" src="./_static/pic1.jpg" alt="Picture">
+             <p id="test">图1 K50+715小河桥桥梁立面布置图</p> 
+             <img id="image2" src="./_static/pic2.jpg" alt="Picture">
+             <p id="test">图2 K50+715小河桥桥梁断面布置图</p> 
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image1'));
+             var viewer = new Viewer(document.getElementById('image2'));
+         </script>
+     </body>
+ 
+ 
 ----
 
 
@@ -48,7 +79,34 @@
 。
 
 .. raw:: html
-   :file: ./_static/ks3.html
+
+   <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image3" src="./_static/pic3.jpg" alt="Picture">
+             <p id="test">图3 项目管理视图</p> 
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image3'));
+         </script>
+     </body>
 
 ----
 
@@ -58,14 +116,71 @@
   简立得®提供快速构件设置模块，您可以根据待检测桥梁上部结构、下部结构、桥面附属结构形式，快速生成、编辑桥梁构件。
 
 .. raw:: html
-   :file: ./_static/ks45.html
+
+   <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image4" src="./_static/pic4.png" alt="Picture">
+             <p id="test">图4 构件快速生成视图</p>
+             <img id="image5" src="./_static/pic5.png" alt="Picture">
+             <p id="test">图5 构件编辑视图</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image4'));
+             var viewer = new Viewer(document.getElementById('image5'));
+         </script>
+     </body>
  
   桥梁建立完成后，通常需要根据规范要求，完善桥梁基本信息卡及其他信息等基本配置。查看
 :ref:`桥梁信息`
 。
 
 .. raw:: html
-   :file: ./_static/ks6.html
+
+   <head>
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image6" src="./_static/pic6.png" alt="Picture">
+             <p id="test">图6 桥梁配置视图</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image6'));
+         </script>
+     </body>
 
 ----
 
@@ -75,14 +190,70 @@
   桥梁建立并生成相应构件后，可以在项目报告视图内建立该桥梁的检测报告，并对该报告的基本信息、检测信息、报告编号等大纲内容进行配置。
 
 .. raw:: html
-   :file: ./_static/ks7.html
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image7" src="./_static/pic7.png" alt="Picture">
+             <p id="test">图7 桥梁检测配置视图</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image7'));
+         </script>
+     </body>
 
 
   完成上述工作，意味着您对待检测桥梁有了总体的认识并对下阶段桥梁检测工作有了初步的计划。
 接下来外业工程师可以携带便携式平板电脑，到桥梁现场开始桥梁检测工作。为了让不同工作任务的工程师更专注于自身的工作，可以通过桥梁检测配置视图进入“检测平台”。
 
 .. raw:: html
-   :file: ./_static/ks8.html 
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image8" src="./_static/pic8.png" alt="Picture">
+             <p id="test">图8 桥梁检测平台-外业工程师界面</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image8'));
+         </script>
+     </body> 
 
 
   在“检测平台”中，外业工程师可以只专注输入构件的病害、采集病害照片并进行构件病害的基本评定，而内业工程师可以更专注于病害分析、技术状况评定及报告整理。
@@ -90,7 +261,35 @@
 。
 
 .. raw:: html
-   :file: ./_static/ks9.html 
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image9" src="./_static/pic9.png" alt="Picture">
+             <p id="test">图9 桥梁检测平台-内业工程师界面</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image9'));
+         </script>
+     </body> 
 
 ----
 
@@ -103,7 +302,35 @@
 。
 
 .. raw:: html
-   :file: ./_static/ks10.html
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image10" src="./_static/pic10.png" alt="Picture">
+             <p id="test">图10 桥梁检测平台-内业工程师界面</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image10'));
+         </script>
+     </body>
 
 ----
 
@@ -115,7 +342,36 @@
 。
 
 .. raw:: html
-   :file: ./_static/ks11.html
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image11" src="./_static/pic11.png" alt="Picture">
+             <p id="test">图11 校审批注界面</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image11'));
+         </script>
+     </body>
+   
 
 ----
 

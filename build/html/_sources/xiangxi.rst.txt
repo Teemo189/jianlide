@@ -4,7 +4,36 @@
 登录 `桥梁检测管理系统 <http://bridge.jianlide.cn/v/login.html>`__ ,看到的是系统主页,这里分为6个部分的信息展示。
 
 .. raw:: html
-   :file: ./_static/xx1.html 
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image12" src="./_static/picx1.png" alt="Picture">
+             <p id="test">图1 系统主页模块图</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image12'));
+         </script>
+     </body>
+
    
 第①部分是系统的功能导航目录。
 
@@ -26,7 +55,36 @@
 **项目列表** :可以创建新的项目，查看已创建的项目，或对项目进行修改和删除操作。
 
 .. raw:: html
-   :file: ./_static/xx2.html
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image13" src="./_static/picx2.png" alt="Picture">
+             <p id="test">图2 项目管理视图</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image13'));
+         </script>
+     </body>
+   
 
 --------------
 
@@ -69,7 +127,36 @@
 **检测桥梁** （报告记录表）
 
 .. raw:: html
-   :file: ./_static/xx8.html
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image14" src="./_static/picx3.png" alt="Picture">
+             <p id="test">图3 报告功能视图</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image14'));
+         </script>
+     </body>
+
 
 .. hint::
 
@@ -173,7 +260,36 @@
 **归档项目** ：搜索到所需要的项目点击确定，得到项目列表,可以进行以下操作。
 
 .. raw:: html
-   :file: ./_static/xx10.html
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image15" src="./_static/picx4.png" alt="Picture">
+             <p id="test">图4 归档项目功能视图</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image15'));
+         </script>
+     </body>
+   
 
   1. **添加归档项目**\ ：若是搜索没有项目，也可以自行添加归档项目，创建一个新的项目。
 
@@ -213,7 +329,36 @@
 **外观记录** ：外观记录是指对桥梁中病害的一个客观描述的记录，包括病害的数据与照片，是外业工程师所提供的。
 
 .. raw:: html
-   :file: ./_static/xx17.html
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image16" src="./_static/picx5.png" alt="Picture">
+             <p id="test">图5 外观记录功能视图</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image16'));
+         </script>
+     </body>
+   
 
 .. hint::
 
@@ -228,7 +373,36 @@
 **裂缝记录** ：因裂缝病害较为特殊，需用裂缝示意图来描述，所以这里单独提出。
 
 .. raw:: html
-   :file: ./_static/xx19.html
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image17" src="./_static/picx6.png" alt="Picture">
+             <p id="test">图6 裂缝记录功能视图</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image17'));
+         </script>
+     </body>
+   
 
 .. hint::
 
@@ -250,7 +424,36 @@
 **桥梁列表** :包含了系统中所有的桥梁，可以在这里添加无从属项目的桥梁，也可以对已建进行桥梁配置。
 
 .. raw:: html
-   :file: ./_static/xx23.html
+
+   <head>
+         
+         <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css" />
+         <style type="text/css">
+             * {
+                 margin: 0;
+                 padding: 0;
+             }
+             img{
+                 border: 0 solid #fbfdfd;
+             }
+             #test{
+                color: dimgray;
+                text-align: center;
+             }
+         </style>
+     </head>
+ 
+     <body>
+         <div>
+             <img id="image18" src="./_static/picx7.png" alt="Picture">
+             <p id="test">图7 桥梁列表图</p>
+         </div>
+         <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
+         <script type="text/javascript">
+             var viewer = new Viewer(document.getElementById('image18'));
+         </script>
+     </body>
+
 
 --------------
 
