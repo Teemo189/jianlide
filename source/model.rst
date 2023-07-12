@@ -12,17 +12,6 @@
 
 .. raw:: html
 
-    <style>
-        #abc{
-            height:200px;
-        }
-    </style>
- <body>
-    <div id="abc"></div>
- </body>
-
-.. raw:: html
-
  <link rel="stylesheet" type="text/css" href="./_static/viewer.min.css"/>
  <script src="./_static/viewer.min.js" type="text/javascript" charset="utf-8"></script>
 
@@ -30,3 +19,7 @@
  <p style="color: dimgray;text-align: center;">图1-1-4  桥梁工程课程与先修课程的关系</p>
  
  <script type="text/javascript">var viewer = new Viewer(document.getElementById('imageE61'));</script>
+
+
+.. raw:: html
+   :file: ./_static/model.html
